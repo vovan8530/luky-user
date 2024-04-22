@@ -13,8 +13,8 @@
 
         <!-- Scripts -->
         @vite(['resources/css/app.css'])
-        @vite(['resources/js/app.js', 'resources/js/page-a/page-a.js'])
-        @vite(['resources/js/admin/index.js'])
+        @vite(['resources/js/app.js'])
+{{--        @vite(['resources/js/admin/index.js'])--}}
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     </head>
     <body class="font-sans antialiased">
